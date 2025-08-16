@@ -76,8 +76,30 @@ async function getCity(id) {
     }
 }
 
+async function deleteCity(id) {
+    try {
+        setIsLoading(true);
+        const response = await fetch(`${BASE_URL}/cities/${id}`, {
+          method: "DELETE",
+        });
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+
+        setCities(cities=> cities.filter(city => city.id !== id))
+
+        console.log(data)
+       
+    } catch  {
+        alert("There was an error deleting city")
+    } finally {
+        setIsLoading(false)
+    }
+}
+
   return (
-    <CitiesProvider.Provider value={{isLoading, cities, currentCity, getCity, createCity}}>
+    <CitiesProvider.Provider value={{isLoading, cities, currentCity, getCity, createCity, deleteCity}}>
         {children}
     </CitiesProvider.Provider>
   )

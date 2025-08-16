@@ -35,42 +35,6 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
-    },
-    {
-      "id": "7b6d",
-      "cityName": "La Fuente de San Esteban",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-08-16T07:39:06.201Z",
-      "position": {
-        "lat": "40.76534342045606",
-        "lng": "-6.262207031250001"
-      },
-      "notes": ""
-    },
-    {
-      "id": "dc15",
-      "cityName": "Valle de Valdelaguna",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-08-16T07:40:55.244Z",
-      "position": {
-        "lat": "42.066857915608175",
-        "lng": "-3.1420898437500004"
-      },
-      "notes": ""
-    },
-    {
-      "id": "bd20",
-      "cityName": "San Roman",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-08-16T07:41:24.990Z",
-      "position": {
-        "lat": "42.82902563400909",
-        "lng": "-7.053222656250001"
-      },
-      "notes": ""
     }
   ]
 }
